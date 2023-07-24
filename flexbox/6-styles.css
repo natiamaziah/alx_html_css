@@ -207,8 +207,8 @@
     list-style: none;
     text-align: center;
     display:flex;
-    .nav .nav-item + .nav-link{
-      margin: var(--nav-item-margin);
+    nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
     }
   }
   
